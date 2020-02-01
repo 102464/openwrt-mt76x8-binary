@@ -3,6 +3,8 @@
 ## Build
 #### Built on ubuntu virtual machine. It took me a whole day compiling it. 
 This includes: <br>
-+ wifidog
-+ freeradius
-+ openssh
++ wifidog (Module)
++ freeradius (Module)
++ openssh (Module)
++ wpad (Built-in)
++ hostapd (Built-in)
