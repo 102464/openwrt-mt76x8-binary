@@ -1,0 +1,136 @@
+Package: cgi-io
+Version: 16
+Depends: libc, libubox20191228, libubus20191227
+License: GPL-2.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 7309
+Filename: cgi-io_16_mipsel_24kc.ipk
+Size: 8087
+SHA256sum: 17a1782d1558c27512c324b312365313dce48e8e3a1486613a0ca4ad04197867
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: freeradius3-common
+Version: release_3_0_20-1
+Depends: libc, libopenssl1.1, libcap, libpcap1, libncurses6, libpcre, libreadline8, libtalloc, libatomic1
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 197288
+Filename: freeradius3-common_release_3_0_20-1_mipsel_24kc.ipk
+Size: 198112
+SHA256sum: 46f921ebae28b96a4cb0c9e74fbc72b92fd5d731dcfcc30418a291de84d2978e
+Description:  common files
+
+Package: freeradius3
+Version: release_3_0_20-1
+Depends: libc, freeradius3-common
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 178829
+Filename: freeradius3_release_3_0_20-1_mipsel_24kc.ipk
+Size: 179007
+SHA256sum: 7a9e83f6ab2317faaea09eaff1849c68639e29e9b82a34a133d6fbb9025b924a
+Description:  A flexible RADIUS server (version 3)
+
+Package: libattr
+Version: 2.4.48-2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 5758
+Filename: libattr_2.4.48-2_mipsel_24kc.ipk
+Size: 6533
+SHA256sum: 87558d4482fd369dc117a799635dac3294238a288b55d9df33fba1a5d74ae62a
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcap
+Version: 2.30-1
+Depends: libc
+License: GPL-2.0-only
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 7567
+Filename: libcap_2.30-1_mipsel_24kc.ipk
+Size: 8309
+SHA256sum: 252337a3646b60f88dfea5af7616594b103e7b05970e055f6d7f7a642773a63c
+Description:  Linux capabilities library library
+
+Package: libpcre
+Version: 8.43-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 77584
+Filename: libpcre_8.43-2_mipsel_24kc.ipk
+Size: 78400
+SHA256sum: 02c677a14cdf8e6506d7868a689035488a0de936a734c534c5256c2322aecb9c
+Description:  A Perl Compatible Regular Expression library
+
+Package: libtalloc
+Version: 2.3.1-1
+Depends: libc, libattr
+License: LGPL-3.0-or-later
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 12336
+Filename: libtalloc_2.3.1-1_mipsel_24kc.ipk
+Size: 13128
+SHA256sum: f082c1a54de51151a10ac4d3811a28cbacac2517bc6c9097db642ef7c22a14af
+Description:  talloc is a hierarchical, reference counted memory pool system with destructors.
+
+Package: openssh-keygen
+Version: 8.1p1-1
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 163872
+Filename: openssh-keygen_8.1p1-1_mipsel_24kc.ipk
+Size: 164108
+SHA256sum: a40c8f95ba468baf105b1961ef797fdcb9e25885c50e04d4ea9beb070a304ec4
+Description:  OpenSSH keygen.
+
+Package: openssh-server
+Version: 8.1p1-1
+Depends: libc, libopenssl1.1, zlib, openssh-keygen
+License: BSD ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 292656
+Filename: openssh-server_8.1p1-1_mipsel_24kc.ipk
+Size: 293036
+SHA256sum: 8e255c92f7497e9afec706784786e4d52bb07f3fd16f9e553dfdc66930ec6a6c
+Description:  OpenSSH server.
+
+Package: openssh-sftp-server
+Version: 8.1p1-1
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 42418
+Filename: openssh-sftp-server_8.1p1-1_mipsel_24kc.ipk
+Size: 43246
+SHA256sum: e544e7cac17b636bc8f41b9c9d9d4a2de4867e2e2f442b5bc14f2c3a2fd3bcc7
+Description:  OpenSSH SFTP server.
+
+Package: wifidog
+Version: 1.3.0-5
+Depends: libc, iptables-mod-extra, iptables-mod-ipopt, iptables-mod-nat-extra, libpthread
+License: GPL-2.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 43754
+Filename: wifidog_1.3.0-5_mipsel_24kc.ipk
+Size: 44771
+SHA256sum: 3cd78b953696f00d44a429bdcaf68a4625eb8baa5c71738e3bb8b7df7e730d68
+Description:  The Wifidog project is a complete and embeddable captive
+ portal solution for wireless community groups or individuals
+ who wish to open a free Hotspot while still preventing abuse
+ of their Internet connection.
+
